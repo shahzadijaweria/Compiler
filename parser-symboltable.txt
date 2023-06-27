@@ -1,0 +1,16 @@
+SCOPE START
+x	INT
+y	INT
+z	INT
+i	INT
+num	INT
+SCOPE START
+return	INT
+SCOPE END
+i	
+SCOPE START
+z	
+x	
+y	
+SCOPE END
+SCOPE END

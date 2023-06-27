@@ -1,0 +1,45 @@
+1	t1 <- 0
+2	x <- t1
+3	int x
+4	t2 <- 1
+5	y <- t2
+6	int y
+7	t3 <- 0
+8	z <- t3
+9	int z
+10	int i
+11	int num
+12	t4 <- "Enter the number :"
+13	out t4
+14	in num
+15	t5 <- 0
+16	if num LT t5 goto 17
+17	goto 23
+18	t6 <- "negative number entered\n"
+19	out t6
+20	t7 <- 0
+21	return t7
+22	int return
+23	goto 23
+24	t8 <- "\nThe fibonacci series :"
+25	out t8
+26	t9 <- 0
+27	i <- t9
+28	if i LT num goto 32
+29	goto 37
+30	t10 <- 1
+31	t11 = i + t10
+32	goto 27
+33	out x
+34	t12 <- " "
+35	out t12
+36	t13= x + y
+37	z <- t13
+38	x <- y
+39	y <- z
+40	goto 29
+41	t14 <- "\n"
+42	out t14
+43	t15 <- 0
+44	return t15
+45	int return
